@@ -132,7 +132,7 @@ function keep_web_alive() {
   });
 }
 setInterval(keep_web_alive, 10 * 1000);
-
+/*
 //Argo保活
 function keep_argo_alive() {
   exec("pgrep -laf cloudflared", function (err, stdout, stderr) {
@@ -156,6 +156,7 @@ function keep_argo_alive() {
   });
 }
 setInterval(keep_argo_alive, 30 * 1000);
+
 
 //哪吒保活
 function keep_nezha_alive() {
@@ -181,6 +182,7 @@ function keep_nezha_alive() {
 }
 setInterval(keep_nezha_alive, 45 * 1000);
 // keepalive end
+*/
 
 //下载web可执行文件
 app.get("/download", function (req, res) {
