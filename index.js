@@ -132,7 +132,7 @@ function keep_web_alive() {
   });
 }
 setInterval(keep_web_alive, 10 * 1000);
-/*
+
 //Argo保活
 function keep_argo_alive() {
   exec("pgrep -laf cloudflared", function (err, stdout, stderr) {
@@ -157,7 +157,7 @@ function keep_argo_alive() {
 }
 setInterval(keep_argo_alive, 30 * 1000);
 
-
+/*
 //哪吒保活
 function keep_nezha_alive() {
   exec("pgrep -laf nezha-agent", function (err, stdout, stderr) {
