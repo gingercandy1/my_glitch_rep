@@ -434,10 +434,10 @@ EOF
 }
 
 generate_config
-generate_argo
+#generate_argo
 #generate_ttyd
 #generate_filebrowser
 
-[ -e argo.sh ] && bash argo.sh
+#[ -e argo.sh ] && bash argo.sh
 #[ -e ttyd.sh ] && bash ttyd.sh
 #[ -e filebrowser.sh ] && bash filebrowser.sh
